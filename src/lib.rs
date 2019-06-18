@@ -65,7 +65,6 @@ impl Config {
             }
         };
         file.write_all(output.as_ref());
-
     }
     pub fn build_list(&self) -> Vec<(String, Script)> {
         let mut out = vec![];
